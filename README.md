@@ -29,4 +29,29 @@
 # E tem um repositório centralizado que armazena todo o histórico de alterações
 # 3. Mercurial: Ele oferece recursos semelhantes ao Git, como rastreamento de alterações
 # ramificação e mesclagem de código. No entanto, o mercurial possui uma sintaxe e uma 
-# estrutura de repositório um pouco diferente do Gi
+# estrutura de repositório um pouco diferente do Git
+
+## DESAFIO 2
+
+# Programação orientada a objetos surgiu como uma alternativa a essas características da programação estruturada. O intuito da sua criação também foi o de aproximar o manuseio das estruturas de um programa ao manuseio das coisas do mundo real, daí o nome "objeto" como uma algo genérico, que pode representar qualquer coisa tangível. É a programação estruturada. Quando começamos a utilizar linguagens como JAVA, C#, PYTHON e outras que possibilitam o paradigma orientado a objetos, é comum errarmos e aplicarmos a programação estruturada achando que estamos usando recursos da orientação a objetos. Essas estruturas são usadas para processar a entrada do programa, alterando os dados até que a saída esperada seja gerada. A diferença principal é que na programação estruturada, um programa é tipicamente escrito em uma única rotina (ou função) podendo, é claro, ser quebrado em subrotinas. Mas o fluxo do programa continua o mesmo, como se pudéssemos copiar e colar o código das subrotinas diretamente nas rotinas que as chamam, de tal forma que, no final, só haja uma grande rotina que execute todo o programa.
+
+# Exemplificação dos cenários 
+
+# 1.	ABSTRAÇÃO: A abstração  é um princípio fundamental da Programação Orientada a Objetos que envolve a identificação e a modelagem das características e comportamentos essenciais de um objeto. 
+# Exemplo: é como pegar algo real e transformar em uma ideia
+# 2.	ENCAPSULAMENTO: O encapsulamento é um princípio no qual garante que partes  do código sejam privados, removendo acesso a partes dele. Ele pode ser chamado, também, de “ocultação de dados”. Ou seja, partes do código ficam dentro de outras partes do código. 
+# Exemplo:  Imagine em sua casa, como seria se outras pessoas, que não são seus familiares ou amigos, entrassem sem permissão e usassem suas coisas.
+# 3.	POLIMORFISMO: O polimorfismo é um pilar da Programação Orientada a Objetos que, como o nome sugere, é sobre a capacidade de um objeto poder assumir diferentes formas ou comportamentos. Isso ajuda o programador quando ele está trabalhando com coleções de objetos de diferentes tipos, permitindo que operações que trabalham com eles sejam realizadas com maior flexibilidade. 
+
+# Exemplo: exemplo: podemos assumir que uma bola de futebol e uma camisa da seleção brasileira são artigos esportivos, mais que o cálculo deles em uma venda é calculado de formas diferentes.
+
+# 4.	HERANÇA: Esse primeiro pilar fala sobre a transmissão de propriedades e métodos de outros objetos. Esse é um ponto que acelera o processo de programação, pois é possível importar partes do código que já foram utilizadas em outro momento. 
+# Exemplo: exemplo pode-se observar as classes 'aluno' e 'professor', onde ambas possuem atributos como nome, endereço e telefone.
+## Vantagens do (POO)
+
+# Neste artigo, exploraremos as vantagens da programação orientada a objetos e como ela contribui para a criação de código mais eficiente, reutilizável e fácil de manter.
+# 1.	Encapsulamento: ...
+# 2.	Reutilização de Código: ...
+# 3.	Manutenção Simplificada: ...
+# 4.	Colaboração Eficiente: ...
+# 5.	Modelagem Realista:
