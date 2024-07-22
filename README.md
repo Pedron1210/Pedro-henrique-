@@ -55,3 +55,38 @@
 # 3.	Manutenção Simplificada: ...
 # 4.	Colaboração Eficiente: ...
 # 5.	Modelagem Realista:
+
+## DESAFIO 3
+
+## Protocolo de comunicação HTTP 
+
+# HTTP é um protocolo que permite a obtenção de recursos, como documentos HTML. É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web.
+# Como Funciona:  informa ao seu navegador como se comunicar com o servidor de um site, a fim de enviar e recuperar informações quando é HTTPS, significa que é o HTTP seguro, que possui alguns padrões de segurança e texto criptografado.
+## Oque é Rest 
+# Rest é um estilo de arquitetura utilizado para criar serviços web. É um conjunto de princípios e restrições que definem como os recursos são expostos e manipulados em um sistema distribuído.
+# Relação do Rest com HTTP: Rest utiliza o protocolo HTTP como meio de comunicação entre o cliente e o servidor. O HTTP é um protocolo de aplicação que permite a transferência de informações na web 
+## Oque é web API
+# Web API é uma interface de programação de aplicativos que permite a comunicação e interação entre sistemas de software por meio do protocolo HTTP.
+# Relação Web Api com o Rest: A relação entre uma Web Api e o Rest é que a Web Api é uma aplicação concreta dos princípios do Rest, permitido a criação de serviços web de forma padronizada. Escalável e interoperável.
+
+# Lista de todos os métodos de solicitações de HTTP com o Rest
+
+## GET
+# O método GET solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
+## HEAD
+# O método HEAD solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta.
+## POST
+# O método POST é utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
+## PUT
+# O método PUT substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
+## DELETE
+# O método DELETE remove um recurso específico.
+## CONNECT
+# O método CONNECT estabelece um túnel para o servidor identificado pelo recurso de destino.
+## OPTIONS
+# O método OPTIONS é usado para descrever as opções de comunicação com o recurso de destino.
+## TRACE
+# O método TRACE executa um teste de chamada loop-back junto com o caminho para o recurso de destino.
+## PATCH
+# O método PATCH é utilizado para aplicar modificações parciais em um recurso.
+
