@@ -90,7 +90,7 @@
 ## PATCH
 # O método PATCH é utilizado para aplicar modificações parciais em um recurso.
 
-## desafio4
+## Desafio 4
 
 ## Entity: 
 
@@ -139,4 +139,42 @@
 # 2.	Coordenação de Transações: Em operações que exigem consistência transacional, as camadas service coordenam a execução de várias operações em uma única transação. Isso garante que as operações sejam executadas de forma atomizada e que o sistema permaneça em um estado consistente, revertendo alterações em caso de falha.
 
 # 3.	Orquestração de Serviços: As camadas service podem ser responsáveis por orquestrar a execução de diferentes serviços ou componentes do sistema para realizar uma operação completa. Isso pode envolver a chamada sequencial ou paralela de vários serviços e a agregação de seus resultados.
+
+# Desafio 5
+
+## Padrão de projeto
+
+# Padrões de projeto são soluções típicas para problemas comuns em projeto de software. Eles são como plantas de obra pré fabricadas que você pode customizar para resolver um problema de projeto recorrente em seu código.
+# Você não pode apenas encontrar um padrão e copiá-lo para dentro do seu programa, como você faz com funções e bibliotecas que encontra por aí. O padrão não é um pedaço de código específico, mas um conceito geral para resolver um problema em particular. Você pode seguir os detalhes do padrão e implementar uma solução que se adeque às realidades do seu próprio programa.
+# Porque utilizamos 
+
+# Os padrões de projeto são ferramentas poderosas que ajudam os desenvolvedores a resolver problemas comuns de design de software de maneira eficiente, eficaz e comprovada. Eles não apenas melhoram a qualidade do código, mas também promovem uma abordagem mais estruturada e consistente no desenvolvimento de software.
+# Conceito de arquitetura de software 
+
+# A arquitetura de software é um conceito fundamental na engenharia de software que se refere à estrutura organizacional de um sistema de software. Ela define a estrutura geral do sistema e descreve como os componentes e módulos do software interagem entre si. A arquitetura de software é crucial porque influencia diretamente a qualidade, escalabilidade, manutenção e desempenho do software.
+# Seus propósitos 
+
+# O propósito da arquitetura de software é fornecer uma estrutura organizada e coerente para o desenvolvimento e manutenção de sistemas de software. Ela estabelece a base sobre a qual o software é construído e orienta as decisões sobre design, implementação e evolução do sistema.
+# 1. Organização e Estrutura
+# •	Objetivo: Definir a estrutura geral do sistema e como os componentes se relacionam.
+# •	Proposta: Fornecer uma visão clara da organização do software, facilitando a compreensão e a comunicação entre a equipe de desenvolvimento.
+# 2. Facilitar a Manutenção e Evolução
+# •	Objetivo: Tornar o sistema mais fácil de manter e adaptar ao longo do tempo.
+# •	Proposta: Permitir que mudanças e atualizações sejam realizadas de forma controlada e eficiente, minimizando o impacto no sistema existente.
+# 3. Garantir Qualidade Não Funcional
+# •	Objetivo: Atender a requisitos não funcionais como desempenho, segurança, escalabilidade e confiabilidade.
+# •	Proposta: Fornecer uma base que suporte esses aspectos essenciais, garantindo que o sistema possa lidar com as demandas do ambiente operacional.
+
+## Sigla solid 
+
+# A sigla SOLID refere-se a um conjunto de cinco princípios fundamentais para o design de software orientado a objetos. Esses princípios ajudam a criar sistemas de software que são mais fáceis de manter e evoluir. Cada letra na sigla SOLID representa um desses princípios:
+# •  S - Single Responsibility Principle (Princípio da Responsabilidade Única):
+# •	Descrição: Uma classe deve ter uma, e somente uma, razão para mudar. Isso significa que cada classe deve ter apenas uma responsabilidade ou função no sistema.
+# •	Objetivo: Facilitar a manutenção e a compreensão do código, reduzindo o impacto das mudanças e promovendo a coesão dentro das classes.
+# •  O - Open/Closed Principle (Princípio do Aberto/Fechado):
+# •	Descrição: Os módulos (classes, funções, etc.) devem estar abertos para extensão, mas fechados para modificação. Em outras palavras, você deve ser capaz de adicionar novos comportamentos ao sistema sem alterar o código existente.
+# •	Objetivo: Minimizar o risco de introduzir bugs ao modificar o código existente e facilitar a adição de novas funcionalidades.
+# •  L - Liskov Substitution Principle (Princípio da Substituição de Liskov):
+# 	Descrição: Os objetos de uma classe derivada devem poder substituir os objetos da classe base sem alterar a correta execução do programa. Em outras palavras, subclasses devem ser substituíveis por suas superclasses sem causar efeitos inesperados.
+# •	Objetivo: Garantir que as heranças sejam utilizadas de forma a preservar o comportamento esperado do sistema.
 
