@@ -90,3 +90,53 @@
 ## PATCH
 # O método PATCH é utilizado para aplicar modificações parciais em um recurso.
 
+## desafio4
+
+## Entity: 
+
+# É um sistema organizado em camadas de uma API, a camada de entidade (ou entity layer) tem a responsabilidade principal de representar os dados do domínio da aplicação de maneira pura e simples, sem qualquer lógica de negócio ou dependência de tecnologia.
+
+# Responsabilidade: 
+
+# 1.	Representação dos dados: As entidades são responsáveis por representar os objetos de negócio da aplicação de forma pura e direta 
+
+# 2.	Independência de Tecnologia: As entidades devem ser independentes de qualquer tecnologia específica ou detalhes de implementação.
+
+# 3.	Validação de Dados: Em alguns casos, as entidades podem conter lógica para validar os dados que estão sendo atribuídos a elas.
+
+# Controller: 
+
+# Em um sistema organizado em camadas de uma API, as camadas controller têm responsabilidades específicas relacionadas à lógica de aplicação e à gestão das requisições HTTP. Aqui estão as principais responsabilidades das camadas controller.
+
+# Responsabilidade: 
+
+# 1.	Gestão de Requisições: As controllers são responsáveis por receber as requisições HTTP dos clientes (como navegadores, aplicativos móveis ou outras APIs), interpretá-las e iniciar as ações apropriadas dentro do sistema.
+
+# 2.	Validação de Entrada: Antes de processar as requisições, as controllers frequentemente validam os dados de entrada para garantir que estejam corretos e consistentes
+
+# 3.	Coordenação de Fluxo de Controle: As controllers coordenam o fluxo de controle entre os diferentes componentes do sistema. Isso pode envolver a chamada de serviços ou métodos de negócio para realizar operações específicas em nome do cliente.
+
+# Repository:
+
+# Em um sistema organizado em camadas de uma API, a camada de repository tem responsabilidades específicas relacionadas à persistência e recuperação de dados. Aqui estão as principais responsabilidades das camadas repository
+
+# Responsabilidade:
+
+# 1.	Abstração de Persistência: As repositories são responsáveis por abstrair os detalhes específicos de acesso a dados e persistência. Isso significa que elas encapsulam a lógica para interagir com o banco de dados ou outro mecanismo de armazenamento
+ 
+# 2.	Operações CRUD:As repositories fornecem métodos para criar (Create), ler (Read), atualizar (Update) e deletar (Delete) entidades ou dados no armazenamento persistente. Esses métodos geralmente refletem operações básicas de banco de dados, como inserção, seleção, atualização e exclusão de registros>
+
+# 3.	Mapeamento Objeto-Relacional (ORM): Em sistemas que utilizam bancos de dados relacionais, as repositories podem ser responsáveis por mapear objetos de domínio (entidades) para estruturas de dados que podem ser armazenadas e recuperadas do banco de dados.
+
+# Service: 
+
+# Em um sistema organizado em camadas de uma API, as camadas service têm responsabilidades cruciais relacionadas à lógica de negócios e à coordenação de operações entre diferentes partes do sistema. Aqui estão as principais responsabilidades das camadas service
+
+# Responsabilidade:
+
+# 1.	Lógica de Negócios: As camadas service encapsulam a lógica de negócios da aplicação. Elas implementam regras e processos específicos do domínio da aplicação, garantindo que as operações realizadas atendam aos requisitos e políticas de negócios estabelecidas.
+
+# 2.	Coordenação de Transações: Em operações que exigem consistência transacional, as camadas service coordenam a execução de várias operações em uma única transação. Isso garante que as operações sejam executadas de forma atomizada e que o sistema permaneça em um estado consistente, revertendo alterações em caso de falha.
+
+# 3.	Orquestração de Serviços: As camadas service podem ser responsáveis por orquestrar a execução de diferentes serviços ou componentes do sistema para realizar uma operação completa. Isso pode envolver a chamada sequencial ou paralela de vários serviços e a agregação de seus resultados.
+
